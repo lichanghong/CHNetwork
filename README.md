@@ -1,0 +1,2 @@
+# CHNetwork
+网络库封装，基于XMNetworking，XMNetworking基于AFNetworking，为了组件化的实现，本库由业务组件依赖，方便修改,网络访问域名和地址都是在这里直接配置
