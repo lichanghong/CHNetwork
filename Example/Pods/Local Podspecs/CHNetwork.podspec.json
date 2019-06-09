@@ -1,8 +1,8 @@
 {
   "name": "CHNetwork",
   "version": "0.1.0",
-  "summary": "A short description of CHNetwork.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "CHNetwork是对XMNetWorking的上层封装，基于AFN，XM更好的分层管理了各项功能",
+  "description": "CHNetwork是对XMNetWorking的上层封装，基于AFN，XM更好的分层管理了各项功能，通过修改XMEngin可以方便直接替换为其他库",
   "homepage": "https://github.com/1211054926@qq.com/CHNetwork",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CHNetwork/Classes/**/*"
+  "source_files": "CHNetwork/Classes/**/*",
+  "dependencies": {
+    "XMNetworking": [
+      "~> 1.1.0"
+    ]
+  }
 }

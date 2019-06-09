@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "CHNetwork.h"
+#import "CHNetworkGlobalConfig.h"
 
 FOUNDATION_EXPORT double CHNetworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char CHNetworkVersionString[];

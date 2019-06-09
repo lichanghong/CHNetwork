@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CHNetwork'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CHNetwork.'
+  s.summary          = 'CHNetwork是对XMNetWorking的上层封装，基于AFN，XM更好的分层管理了各项功能'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  CHNetwork是对XMNetWorking的上层封装，基于AFN，XM更好的分层管理了各项功能，通过修改XMEngin可以方便直接替换为其他库
                        DESC
 
   s.homepage         = 'https://github.com/1211054926@qq.com/CHNetwork'
@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'XMNetworking', '~> 1.1.0'
+
 end
