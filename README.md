@@ -1,7 +1,6 @@
 # CHNetwork
-<<<<<<< HEAD
+
 网络库封装，基于XMNetworking，XMNetworking基于AFNetworking，为了组件化的实现，本库由业务组件依赖，方便修改,网络访问域名和地址都是在这里直接配置
-=======
 
 [![CI Status](https://img.shields.io/travis/1211054926@qq.com/CHNetwork.svg?style=flat)](https://travis-ci.org/1211054926@qq.com/CHNetwork)
 [![Version](https://img.shields.io/cocoapods/v/CHNetwork.svg?style=flat)](https://cocoapods.org/pods/CHNetwork)
@@ -30,4 +29,4 @@ pod 'CHNetwork'
 ## License
 
 CHNetwork is available under the MIT license. See the LICENSE file for more info.
->>>>>>> Initial commit
+ 
